@@ -1,0 +1,63 @@
+Задачи компьютерного зрения на пайтоне можно решать с помощью
+библиотеки numpy и библиотек scipy, matplotlib, scikit-image и scikit-learn,
+они построены на numpy и друг друга дополняют
+
+Лекции по пайтону:
+http://www.tp.umu.se/~nylen/pylect/index.html
+Для начала достаточно посмотреть
+1.2 The Python language
+1.3 Numpy: creating and manipulating numerical data
+Обратите внимание на то, что операции над массивами при помощи numpy проводятся
+в десятки раз быстрее, чем проход циклом по всему массиву и применение операции к каждому 
+элементу в отдельности, таким образом, если ваша программа выходит за рамки ограничений
+по времени, необходимо постараться уменьшить количество циклов, заменив их на операции
+над векторами.
+
+Существует пакет приложений под названием Anaconda, в который уже включены все необходимые
+для выполнения заданий библиотеки, а также сам интерпретатор python и среда 
+программирования spyder. Скачать пакет для любой платформы можно здесь: 
+https://www.continuum.io/downloads
+
+Если вы не хотите ставить тяжелый пакет, установите отдельные библиотеки вручную:
+Установка в Windows:
+1. Скачайте и поставьте python http://www.python.org/download/
+   Рекомендуется версия 3.5, однако 2.7 тоже вполне рабочая
+2. Поставьте бинарные пакеты для пайтона. Следите за битностью и версией
+пайтона:
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-image
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn
+3. В консоли пайтона должны быть теперь доступны пакеты для импорта, например,
+>>> import numpy
+
+Установка в Linux:
+Посмотрите в репозитории (обычно пакеты там есть), а затем на официальных
+сайтах пакетов.
+
+
+
+Ссылки на документацию:
+
+numpy (общие структуры данных для вычислений и операции над ними):
+http://docs.scipy.org/doc/numpy/reference/
+
+scikit-image (обработка изображений):
+http://scikit-image.org/docs/0.9.x/api/api.html
+
+scikit-learn (алгоритмы машинного обучения):
+http://scikit-learn.org/stable/user_guide.html
+http://scikit-learn.org/stable/modules/classes.html
+
+matplotlib (построение графиков):
+http://matplotlib.org/contents.html
+
+scipy (линейная алгебра, обработка сигналов и др.):
+http://docs.scipy.org/doc/scipy/reference/
+
+
+Стандартная консоль пайтона не очень богата возможностями, можно использовать
+вместо неё ipython:
+http://ipython.org/
+
