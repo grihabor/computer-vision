@@ -1,2 +1,2 @@
-# computer-vision
-# computer-vision
+# Computer vision
+Computer vision course projects.
