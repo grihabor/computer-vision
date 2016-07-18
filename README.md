@@ -1,2 +1,2 @@
 # Computer vision
-Computer vision course projects.
+Работа по курсу "Введение в компьютерное зрение"
