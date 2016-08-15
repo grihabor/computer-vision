@@ -1,0 +1,13 @@
+
+INPUT_SIZE = 96
+batch_size = 50
+nb_epoch = 400
+
+accuracy 0.86
+mse 0.0304
+
+*******************
+
+INPUT_SIZE = 128
+batch_size = 50
+nb_epoch = 300
